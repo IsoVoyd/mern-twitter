@@ -25,4 +25,3 @@ app.use("/api/users", users);
 app.use("/api/tweets", tweets);
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));
-
